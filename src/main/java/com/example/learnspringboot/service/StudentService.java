@@ -16,4 +16,20 @@ public class StudentService{
     public List<Student> getAllStudents(){
         return studentDao.getAllStudents();
     }
+
+    public void addStudent(Student student){
+        studentDao.addStudent(student);
+    }
+
+    public void updateStudent(Student student){
+        studentDao.updateStudent(student);
+    }
+
+    public void deleteStudentById(int id){
+        studentDao.deleteStudentById(id);
+    }
+
+    public Student getStudentById(int id){
+        return studentDao.getStudentById(id);
+    }
 }

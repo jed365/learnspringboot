@@ -7,12 +7,12 @@
         
         {
             "type": "java",
-            "name": "Debug (Launch)-DemoApplication<learnspringboot>",
+            "name": "Debug (Launch)-App<learnspringboot>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "mainClass": "com.example.learnspringboot.DemoApplication",
+            "mainClass": "com.example.learnspringboot.App",
             "projectName": "learnspringboot",
             "args": ""
         },
